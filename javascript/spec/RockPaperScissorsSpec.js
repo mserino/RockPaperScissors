@@ -18,10 +18,26 @@ describe("Rock-Paper-Scissors", function() {
         expect(game.winner()).toBe(player1);
       });
 
+
+      it('should beat lizard', function() {
+
+        player1.picks('rock');
+        player2.picks('lizard');
+        expect(game.winner()).toBe(player1);
+      });
+
       it('should lose to paper', function() {
 
         player1.picks('rock');
         player2.picks('paper');
+        expect(game.winner()).toBe(player2);
+
+      });
+
+      it('should lose to spock', function() {
+
+        player1.picks('rock');
+        player2.picks('spock');
         expect(game.winner()).toBe(player2);
 
       });
