@@ -1,5 +1,8 @@
 Rock Paper Scissors Lizard Spock
 ================================
+Week #7 project of [Makers Academy](http://www.makersacademy.com)
+
+##What is it?
 Simple game created with Javascript
 
 ##What can you do with it?
@@ -11,11 +14,12 @@ Simple game created with Javascript
 - Jasmine (for testing)
 
 ##How can you use it?
-Clone it
+Clone it:
 
 `git clone https://github.com/mserino/RockPaperScissors.git`
 
 Open `index.html` and play
+
 If you want to check the tests, open `/javascript/SpecRunner.html`
 
 ##What it looks like?
